@@ -1,0 +1,9 @@
+
+  
+<view wx:for="{{songs}}" class="songClass">
+<navigator url="/pages/song/song?mid={{item.mid}}" hover-class="navigator-hover">
+ {{index+1}}、{{item.name}} - {{item.author}} 
+  </navigator>
+ 
+</view>
+
