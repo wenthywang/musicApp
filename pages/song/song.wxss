@@ -1,1 +1,7 @@
 /* pages/song/song.wxss */
+.container{
+  display:flex;
+
+
+  margin-top: 160px;
+}
